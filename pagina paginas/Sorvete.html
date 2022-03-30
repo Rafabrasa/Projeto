@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../style/secundario.css">
+  <link rel="stylesheet" type="text/css" href="../style/modal.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+   <!-- TODO: Add SDKs for Firebase products that yom/docs/web/setup#available-libraries -->
+
+   <script src="./script.js">
+      
+   </script>
+   <script src="./cadastro.js">
+      
+   </script>
+</head>
+<body>
+  <div>
+    <div id="page-landing">
+      <div id="topo">
+        <a href="./Sabores-do-Olimpo.html" id="imagem">
+          
+        </a>
+        <input id="busca" type="text"/> 
+            <a href="" id="pesquisar">Busca</a>
+            <a href="./cadastro.html" id="login">Cadastrar</a>
+            <a id="carrinhoz" href="../pagina paginas/carrinho.html" ></a>
+        
+</div>
+    
+    </div>
+    <div id="mid-lan">
+    <div id="mid-lan2">
+      <div id="promo"> 
+        <P id="promo1">Promoção<br> do dia <br> aproveite!</P>  
+      </div>
+        
+      <div id="slider">
+          <img class="selected" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/PROMOÇÃO%20BRASILEIRA%201.jpg?alt=media&token=39921634-0fdc-455b-8ef7-821b66e45896" alt="Image1"></img>
+          
+      </div>
+      <div id="slider">
+        <img class="selected" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/PROMOÇÃO%20SUSHI%201.jpg?alt=media&token=938d8d3e-f15b-46b3-aaaf-1b5f69f00798" alt="Image1"></img>
+        
+    </div>
+  </div>
+</div>
+  <div id="mid1">
+    <div id="mid2">
+        <div id="fotos">
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=201)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/Chocolate.jpg?alt=media&token=b919d02e-43d7-4d7a-8ee4-586404ce68b4" alt="imagem 1"/></div>
+              Chocolate
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=202)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/Morango-vegano.jpg?alt=media&token=0046264e-6705-40ad-85d1-cbb3c305203f" alt="imagem 2"/></div>
+              Morango
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=203)">
+              <div id="fotos2"> 
+              <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/banana-vegano.jpg?alt=media&token=1a049ce5-f4db-4ddb-8103-3b2ed1bc4d5f" alt="imagem 3"/></div>
+              Banana
+            </a>
+          </figcaption>        
+        </div>
+        <div id="fotos"> 
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=204)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/baunilha-com-caramelo.jpg?alt=media&token=bd33bc0e-3e89-47e1-a8ab-cb921c111b96" alt="imagem 1"/></div>
+              Baunilha
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=205)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/creme.jpg?alt=media&token=84935b17-2019-47c1-84e2-8e10a9f2af91" alt="imagem 2"/></div>
+              Creme
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=208)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/tapioca.jpg?alt=media&token=daf52024-438e-4a61-8eed-9351d630600a" alt="imagem 3"/></div>
+              Tapioca
+            </a>
+          </figcaption>   
+        </div>
+        <div id="fotos">
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=209)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/napolitano.jpg?alt=media&token=8180d5dd-8b3d-4bda-b546-f11d58f20886" alt="imagem 1"/></div>
+              Napolitano
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=207)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/milho-verde.jpg?alt=media&token=152cf943-6bda-49cc-8ee5-6a9b2daa1a13" alt="imagem 2"/></div>
+              Milho-verde
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=206)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/menta.jpg?alt=media&token=e00a9011-18f2-40f2-b61f-28f4fb95e710" alt="imagem 3"/></div> 
+              Menta
+            </a>
+          </figcaption>   
+        
+        </div>
+
+    </div>
+</div>
+</div>
+<div id="abrirModal" class="modal">
+  <div id="divdomodal" class="ajustartamanho">
+      <a href="#fechar" title="Fechar" class="fechar"></a>
+      <!-- NO PRODUTO EM VEZ DO INPUT TENTA ADICIONAR FOTO POIS EU NÃO CONSEGUI E PÕE UM PARAGRAFO COMO DESCRIÇÃO DO PRODUTO -->
+      <!--  Código <input class = "produtoz" id="cod"  type="text"></input><br><br><br>-->
+      <img src="" id="fotox" class="fotosdiv"></img>
+      Produto <input id="prod" type="text" class="produtosp" disabled="disabled"></input><br>
+      <textarea cols="23" rows="5" id="desc" disabled="disabled"></textarea> <br>
+      Preço  <input class="produtoj" id="preco" disabled="disabled" type="text" class="preco"></input>
+      Quant. <input id="quantidade" value="1"type="number" onchange="valort()" class="produtoj"></input><br>
+      Valor Total<input id="valortotal" type="number" disabled="disabled" class="produtoj"></input> 
+      Telefone <input class="produtoz" id="telefone" type="text" oninput="mascara(this, 'tel')"></input>
+
+
+
+      <button id="produtoz" onclick="addaocarrinho()">Adicionar o carrinho</button>
+  </div>
+</div>
+</body>
+<footer>
+  <div id="bot">
+      <div id="bot1">
+          <div id="logo4">
+              <p id="slogan"></p> </div>
+              <p id="bot2">Quem nós somos?<br>  Rafael Brandão </p>
+      
+</footer>
+</html>
+</html>

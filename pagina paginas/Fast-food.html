@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../style/secundario.css">
+  <link rel="stylesheet" type="text/css" href="../style/modal.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+   <!-- TODO: Add SDKs for Firebase products that yom/docs/web/setup#available-libraries -->
+
+   <script src="./script.js">
+      
+   </script>
+   <script src="./cadastro.js">
+      
+   </script>
+</head>
+<body>
+<div>
+    <div id="page-landing">
+      <div id="topo">
+        <a href="./Sabores-do-Olimpo.html" id="imagem">
+          
+        </a>
+        <input id="busca" type="text"/> 
+            <a href="" id="pesquisar">Busca</a>
+            <a href="./cadastro.html" id="login">Cadastrar</a>
+            <a id="carrinhoz" href="../pagina paginas/carrinho.html" ></a>
+        
+</div>
+    </div>
+    <div id="mid-lan">
+    <div id="mid-lan2">
+      <div id="promo"> 
+        <P id="promo1">Promoção<br> do dia <br> aproveite!</P>  
+      </div>
+        
+      <div id="slider">
+          <img class="selected" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/PROMOÇÃO%20MASSAS%201.jpg?alt=media&token=cd4cb44c-5533-4183-a0d8-050d947d7e61" alt="Image1"></img>
+          
+      </div>
+      <div id="slider">
+        <img class="selected" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/PROMOÇÃO%20BRASILEIRA%202.jpg?alt=media&token=8fffa488-d0ef-42e0-aa26-8e6bf19dbba7" alt="Image1"></img>
+        
+    </div>
+    </div>
+  </div>
+  <div id="mid1">
+    <div id="mid2">
+        <div id="fotos">
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=501)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/unidades-camarao.jpg?alt=media&token=2b019670-ff66-46f6-ac34-8572fa3b1e14" alt="imagem 1"/></div>
+              5 unidades Camarão
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=502)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/kit-live.jpg?alt=media&token=1c54164a-b806-4d24-846a-13b0648ffa0a" alt="imagem 2"/></div>
+              Kit live 
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=503)">
+              <div id="fotos2"> 
+              <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/file-burguer.jpg?alt=media&token=34ac0fec-387b-404c-9f21-392f34b4a19c" alt="imagem 3"/></div>
+              Filé Burguer
+            </a>
+          </figcaption>        
+        </div>
+        <div id="fotos"> 
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=504)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/el-verdadero.jpg?alt=media&token=dbe10beb-e231-4aa5-8d87-c04cf4a5a648" alt="imagem 1"/></div>
+              EL Verdadero
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=505)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/gran-alcatra.jpg?alt=media&token=3a74a79f-cf2b-4eda-afb5-efd730ebb35f" alt="imagem 2"/></div>
+              Chivito Gran Alcatra
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=506)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/vegetariano.jpg?alt=media&token=4eb7b213-e3ea-460d-a916-e6e9d810ae7d " alt="imagem 3"/></div>
+              EL Vegetariano
+            </a>
+          </figcaption>   
+        </div>
+        <div id="fotos">
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=507)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/isca-frango.jpg?alt=media&token=ce87baa3-5b50-4a24-92df-e357d6faad56" alt="imagem 1"/></div>
+              Isca de Frango Empanado
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=508)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/la-formosa.jpg?alt=media&token=36910bd2-e889-4473-bf85-96f912f94d40" alt="imagem 2"/></div>
+              LA Formosa
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=509)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/sem-gluten.jpg?alt=media&token=7e5ac87c-4ce4-4674-9fb3-45427624f6e2" alt="imagem 3"/></div> 
+              Chivito sem Gluten
+            </a>
+          </figcaption>   
+        
+        </div>
+
+    </div>
+</div>
+    
+</div>
+<div id="abrirModal" class="modal">
+  <div id="divdomodal" class="ajustartamanho">
+      <a href="#fechar" title="Fechar" class="fechar"></a>
+      <!-- NO PRODUTO EM VEZ DO INPUT TENTA ADICIONAR FOTO POIS EU NÃO CONSEGUI E PÕE UM PARAGRAFO COMO DESCRIÇÃO DO PRODUTO -->
+      <!--  Código <input class = "produtoz" id="cod"  type="text"></input><br><br><br>-->
+      <img src="" id="fotox" class="fotosdiv"></img>
+      Produto <input id="prod" type="text" class="produtosp" disabled="disabled"></input><br>
+      <textarea cols="23" rows="5" id="desc" disabled="disabled"></textarea> <br>
+      Preço  <input class="produtoj" id="preco" disabled="disabled" type="text" class="preco"></input>
+      Quant. <input id="quantidade" value="1"type="number" onchange="valort()" class="produtoj"></input><br>
+      Valor Total<input id="valortotal" type="number" disabled="disabled" class="produtoj"></input> 
+      Telefone <input class="produtoz" id="telefone" type="text" oninput="mascara(this, 'tel')"></input>
+
+
+
+      <button id="produtoz" onclick="addaocarrinho()">Adicionar o carrinho</button>
+  </div>
+</div>
+</body>
+<footer>
+  <div id="bot">
+      <div id="bot1">
+          <div id="logo4">
+              <p id="slogan"></p> </div>
+              <p id="bot2">Quem nós somos?<br>  Rafael Brandão </p>
+      
+</footer>
+</html>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/carrinho.css">
+    <title>Document</title>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    
+    <script src="./carrinho.js">
+    
+    </script>
+
+</head>
+
+<body>
+<div id="cadastropage">
+    <a href="./Sabores-do-Olimpo.html"><img id="imgcadastro" src="../logo/logo1.jpg" alt="Sabores do Olinpo" /></a>
+    <div class="cadastropage">
+        
+        <div class="cadastropage">Digite seu Telefone:<input id="telefone" class="telefone" size="10" oninput="mascara(this, 'tel')" onblur="puxar();carrinho()"></input><br><br>
+        
+        <div id="produto0">
+            <input size="15" id="produto" class="produto" disabled="disabled" placeholder="Produto" ></input>
+            <input size="6" id="quantidade" class="quantidade" onchange="totalcarrinho()" placeholder="quantidade" ></input>
+            <input size="5" id="valor" class="valor" type="number"disabled="disabled" placeholder="valor" ></input>
+        </div><br>
+        <div id="produto0">
+            <input size="15" id="produto1" class="produto" disabled="disabled" placeholder="Produto" ></input>
+            <input size="6" id="quantidade1" class="quantidade" onchange="totalcarrinho()" placeholder="quantidade" ></input>
+            <input size="5" id="valor1" class="valor" type="number" disabled="disabled" placeholder="valor" ></input>
+        </div><br>
+        <div id="produto0">
+            <input size="15" id="produto2" class="produto" disabled="disabled" placeholder="Produto" ></input>
+            <input size="6" id="quantidade2" class="quantidade" onchange="totalcarrinho()" placeholder="quantidade" ></input>
+            <input size="5" id="valor2" class="valor" type="number"disabled="disabled" placeholder="valor" ></input>
+        </div><br>
+        <div id="total">
+        <h2>TOTAL DO PEDIDO:<input id="vart" class="valor" size="5" onclick="confirmado()" disabled="disabled"></input></h2>
+        </div><br>
+
+            <input id="cliente" class="cadastrobusca12" type="text" placeholder="Nome" /><br>
+            <input class="cadastrobusca" name="rua" type="text" id="rua" placeholder="Rua" /><br>
+        
+        <div class="cadastrobusca4">
+            <input class="cadastrobusca5" name="referência" type="text" id="referencia" placeholder=" Referência"/><br>
+            <input class="cadastrobusca3" name="Nº" type="text" id="numero" placeholder="Nº" />
+        </div><br>
+        <div class="cadastrobusca4">
+            <input class="cadastrobusca5" name="cidade" type="text" id="cidade" placeholder="Cidade"/><br>
+            <input class="cadastrobusca6" name="bairro" type="text" id="bairro" placeholder="Bairro" /><br>
+        </div><br>
+    <h2><button class="cadastrobotton">Confirmar Compra</button></h2>
+    </div>
+    
+    
+</div>    
+    
+</body>
+
+</html>

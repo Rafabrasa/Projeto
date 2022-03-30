@@ -1,0 +1,360 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+   z-index: 99999;
+  opacity:0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); 
+  background-color: rgba(87, 6, 163, 0.3);
+  pointer-events: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: #ffffff;
+  border-style: ridge;
+}
+
+.ajustartamanho{
+  position: fixed;
+  width: 300px;
+  height: 800px;
+  align-items: center;
+  bottom: 100px;
+  justify-content: center;
+  border: ridge;
+  border-radius: 10px;
+  border-color: #ffffff;
+  display: grid;
+  border-radius: 10px;
+  border: #ffffff;
+  border-style: ridge;
+  
+}
+
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+  border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+}
+
+.modal > div {
+  width: 350px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 10px;
+  border: #ffffff;
+  border-style: ridge;  
+  
+}
+
+.fechar {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 5px;
+  right: 5px;
+  color: firebrick;
+
+  border-radius: 20px;
+  border: #ffffff;
+  border-style: ridge;
+  
+  
+  
+  background-position: center;
+  background-image: url("../imagens/pagina/costas.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-color: firebrick;
+
+}
+#produtoz{
+  position: relative;  
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border: #ffffff;
+  border-style: ridge;
+  font: 700 15px Cinzel Decorative, sans-serif;
+  background-image: linear-gradient(45deg,#ffffff,#bbb8e9 )
+  
+}
+.produtoz{
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  height: 30px;
+  display: flex;
+  position: relative;
+  height: 40px;
+  
+  border-radius: 10px;
+  border: #ffffff;
+  border-style: ridge;
+  
+}
+#desc {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  border: #ffffff;
+  border-style: ridge;
+  position: relative;
+}
+
+.produtosp{
+  position: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  display: flex;
+  
+  width: 300px;
+  height: 40px;
+  font-size: 19px;
+  border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+}
+
+.quantidade{
+  position: relative;
+  color: firebrick;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+ 
+  border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+}
+
+.fotosdiv
+{
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    
+    border: ridge;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+
+
+.produtoj{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  
+  display: flex;
+  left: 100px;
+  width: 100px;
+  height: 40px;
+
+  
+  text-align: center;
+  
+  border-radius: 10px;
+  border: #ffffff;
+  border-style: ridge;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+     z-index: 99999;
+    opacity:0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
+    background-color: rgba(87, 6, 163, 0.3);
+    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+
+
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+  }
+  
+  .ajustartamanho{
+    position: fixed;
+    width: 150px;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    display: grid;
+    border: ridge;
+    border-radius: 10px;
+    border-color: #ffffff;
+  }
+  
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+  }
+  
+  .modal > div {
+    width: 300px;
+    position: relative;
+    
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+  }
+  
+  .fechar {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 5px;
+    right: 5px;
+   
+  
+    border-radius: 20px;
+    border: #ffffff;
+    border-style: ridge;
+    
+    
+    
+    background-position: center;
+    background-image: url("../imagens/pagina/costas.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-color: firebrick;
+  }
+  
+  .produtoz{
+    position: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    
+    
+    font: 700 8px Cinzel Decorative, sans-serif;
+    
+  }
+  
+  #produtoz{
+    
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: #ffffff;
+    border-style: ridge;
+    font: 700 15px Cinzel Decorative, sans-serif;
+    background-image: linear-gradient(45deg,#ffffff,#bbb8e9 )
+  }
+  .produtosp{
+    position: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: inline-block;
+    margin:0 auto;
+    width: 250px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+  }
+  
+  
+  
+  .fotosdiv
+  {
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 125px;
+    
+    border: ridge;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+  }
+  
+  #desc {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+  }
+  
+  .produtoj{
+  
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+    
+    margin: 0px;
+    width: 100px;
+    height: 40px;
+    
+    
+  }
+
+
+
+
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../style/secundario.css">
+  <link rel="stylesheet" type="text/css" href="../style/modal.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+   <!-- TODO: Add SDKs for Firebase products that yom/docs/web/setup#available-libraries -->
+
+   <script src="./script.js">
+      
+   </script>
+   <script src="./cadastro.js">
+      
+   </script>
+</head>
+<body>
+  <div>
+    <div id="page-landing">
+      <div id="topo">
+        <a href="./Sabores-do-Olimpo.html" id="imagem">
+          
+        </a>
+        <input id="busca" type="text"/> 
+            <a href="" id="pesquisar">Busca</a>
+            <a href="./cadastro.html" id="login">Cadastrar</a>
+            <a id="carrinhoz" href="../pagina paginas/carrinho.html" ></a>
+        
+</div>
+    
+    </div>
+    <div id="mid-lan">
+    <div id="mid-lan2">
+      <div id="promo"> 
+        <P id="promo1">Promoção<br> do dia <br> aproveite!</P>  
+      </div>
+        
+      <div id="slider">
+          <img class="selected" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/PROMOÇÃO%20BRASILEIRA%201.jpg?alt=media&token=39921634-0fdc-455b-8ef7-821b66e45896" alt="Image1"></img>
+          
+      </div>
+      <div id="slider">
+        <img class="selected" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/PROMOÇÃO%20FAST-FOOD%201.jpg?alt=media&token=d9b1617d-152c-415b-b730-379f7a9e5867" alt="Image1"></img>
+        
+    </div>
+    </div>
+  </div>
+  <div id="mid1">
+    <div id="mid2">
+        <div id="fotos">
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=601)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/rondelli.jpg?alt=media&token=625e41b5-f3e9-44db-b551-63e0619fe24b" alt="imagem 1"/></div>
+              Rondelli
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=602)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/lasanha-camarao.jpg?alt=media&token=857f7171-788e-4947-8910-910b7d5e31e2" alt="imagem 2"/></div>
+              Lasanha de Camarão
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=603)">
+              <div id="fotos2"> 
+              <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/lasanha-lagosta.jpg?alt=media&token=cfb31f1d-b1cb-42ed-8b9e-baf72c06ea5a" alt="imagem 3"/></div>
+              Lasanha de Camarão com Catupiry
+            </a>
+          </figcaption>        
+        </div>
+        <div id="fotos"> 
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=604)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/lasanha-lagosta.jpg?alt=media&token=cfb31f1d-b1cb-42ed-8b9e-baf72c06ea5a" alt="imagem 1"/></div>
+              Lasanha de Lagosta
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=605)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/linguine-pesto.jpg?alt=media&token=ba762a9e-3a48-4d0f-8dcf-990dfc2cc503" alt="imagem 2"/></div>
+              Linguine ao Pesto
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=606)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/lasanha-frango.jpg?alt=media&token=be16073d-a959-4443-ad77-c06c88ca12f6" alt="imagem 3"/></div>
+              Lasanha de Frango
+            </a>
+          </figcaption>   
+        </div>
+        <div id="fotos">
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=607)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/penne-mb.jpg?alt=media&token=6c4dcc2f-ef14-4e65-a5c6-5cfbc6204f5e" alt="imagem 1"/></div>
+              Penne
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=608)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/espaguete-carbonara.jpg?alt=media&token=bfdea962-efa5-4df8-bc1f-4020535fa139" alt="imagem 2"/></div>
+              Espaguete a Carbonara 
+            </a>
+          </figcaption>   
+          <figcaption id="pfotos">
+            <a id="abrirModal1" href="#abrirModal" onclick="Procurar(codigo=609)">
+              <div id="fotos2">
+                <img id="fotos3" src="https://firebasestorage.googleapis.com/v0/b/olimpobr-44059.appspot.com/o/linguine-camarao.jpg?alt=media&token=b9fab7e7-6883-4ed6-a705-6d490fcddd75" alt="imagem 3"/></div> 
+              Linguine de Camarão
+            </a>
+          </figcaption>   
+        
+        </div>
+
+    </div>
+</div>
+    
+</div>
+<div id="abrirModal" class="modal">
+  <div id="divdomodal" class="ajustartamanho">
+      <a href="#fechar" title="Fechar" class="fechar"></a>
+      <!-- NO PRODUTO EM VEZ DO INPUT TENTA ADICIONAR FOTO POIS EU NÃO CONSEGUI E PÕE UM PARAGRAFO COMO DESCRIÇÃO DO PRODUTO -->
+      <!--  Código <input class = "produtoz" id="cod"  type="text"></input><br><br><br>-->
+      <img src="" id="fotox" class="fotosdiv"></img>
+      Produto <input id="prod" type="text" class="produtosp" disabled="disabled"></input><br>
+      <textarea cols="23" rows="5" id="desc" disabled="disabled"></textarea> <br>
+      Preço  <input class="produtoj" id="preco" disabled="disabled" type="text" class="preco"></input>
+      Quant. <input id="quantidade" value="1"type="number" onchange="valort()" class="produtoj"></input><br>
+      Valor Total<input id="valortotal" type="number" disabled="disabled" class="produtoj"></input> 
+      Telefone <input class="produtoz" id="telefone" type="text" oninput="mascara(this, 'tel')"></input>
+
+
+
+      <button id="produtoz" onclick="addaocarrinho()">Adicionar o carrinho</button>
+  </div>
+</div>
+</body>
+<footer>
+  <div id="bot">
+      <div id="bot1">
+          <div id="logo4">
+              <p id="slogan"></p> </div>
+              <p id="bot2">Quem nós somos?<br>  Rafael Brandão </p>
+      
+</footer>
+</html>
+</html>

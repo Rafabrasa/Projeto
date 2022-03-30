@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    
+    font:linear-gradient(45deg,#696969,#302f2f );;
+
+    
+
+    background-image: linear-gradient(45deg,#ffffff,#bbb8e9 )
+}
+
+body, input, button, textarea {
+    font: 700 18px Cinzel Decorative, sans-serif;
+}
+#cadastropage {
+    margin: 0;
+    display: flex;
+    position: relative;
+    
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 100%;
+
+    flex-direction: column;
+
+}
+#imgcadastro{
+
+    display: flex;
+    position: relative;
+
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 p {
+    
+    display: flex;
+    color: #2B0548;
+    align-items: center;
+    justify-content: center;
+}
+.cadastrobusca {
+
+    width: 37vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: flex;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca1 {
+
+    width: 38vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: flex;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca12 {
+
+    width: 37vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: flex;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca2 {
+
+    width: 30vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: grid;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca3 {
+
+    width: 15vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: grid;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca4 {
+
+    width: 38vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: flex;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca5 {
+
+    width: 25vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: grid;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+.cadastrobusca6 {
+
+    width: 20vw;
+
+
+    text-decoration: none;
+    
+    font-weight: 800;
+    
+    
+    display: grid;
+    position: relative;
+
+    
+    border-radius: 25px;
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;    
+
+}
+
+
+.cadastrobotton {
+
+    width: 37vw;
+    text-decoration: none;
+
+    color: #ffffff;
+    background-color: #2B0548;
+    
+    border-radius: 25px;
+    
+    border-style: ridge;
+
+    display: flex;
+
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+  
+}
+
+
+
+
+
+
+
+@media (max-width:600px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    body {
+        
+        font:linear-gradient(45deg,#696969,#302f2f );;
+    
+        
+    
+        background-image: linear-gradient(45deg,#ffffff,#bbb8e9 )
+    }
+    
+    body, input, button, textarea {
+        font: 700 8px Cinzel Decorative, sans-serif;
+    }
+    #cadastropage {
+        margin: 0;
+        display: flex;
+        position: relative;
+        
+        align-items: center;
+        justify-content: center;
+    
+        width: 350px;
+        max-width: 350px;
+        height: 100vh;
+        max-height: 100%;
+    
+        flex-direction: column;
+    
+    }
+    #imgcadastro{
+    
+        display: flex;
+        position: relative;
+    
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h2 p {
+        
+        display: flex;
+        color: #2B0548;
+        align-items: center;
+        justify-content: center;
+    }
+    .cadastrobusca {
+    
+        width: 60vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: flex;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    
+    .cadastrobotton {
+    
+        width: 60vw;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #2B0548;
+        
+        border-radius: 25px;
+        
+        border-style: ridge;
+    
+        display: flex;
+    
+        position: relative;
+    
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        
+      
+    }
+    .cadastrobusca12 {
+
+        width: 60vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: flex;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    .cadastrobusca1 {
+    
+        width: 43vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: flex;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    .cadastrobusca2 {
+    
+        width: 52vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: grid;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    .cadastrobusca3 {
+    
+        width: 18vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: grid;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    .cadastrobusca4 {
+    
+        width: 60vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: flex;
+        position: relative;
+    
+        
+        border-radius: 25px;
+       
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    .cadastrobusca5 {
+    
+        width: 40vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: grid;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+    .cadastrobusca6 {
+    
+        width: 20vw;
+    
+    
+        text-decoration: none;
+        
+        font-weight: 800;
+        
+        
+        display: grid;
+        position: relative;
+    
+        
+        border-radius: 25px;
+        padding: 10px;
+    
+        align-items: center;
+        justify-content: center;    
+    
+    }
+
+}
+
